@@ -18,6 +18,31 @@ h2 {
 
 body {
   font-family: "Azo", sans-serif;
+  width: 100%;
+  height: auto;
+  background-image: url(../imgs/dust_scratches.png);
+  background-repeat: repeat;
+}
+
+.btn-color {
+  background-color: rgb(167,216,187) !important;
+  color: white !important;
+}
+
+.btn-color:hover {
+  background-color: rgb(169,151,91) !important;
+  color: white !important;
+}
+
+.list {
+  width: 600px !important;
+  height: auto;
+}
+
+.show-more {
+  width: 200px !important;
+  align-content: center;
+  justify-content: center;
 }
 
 .pyramid-container {
@@ -26,9 +51,10 @@ body {
 }
 
 .pyramid {
-  width: 1000px;
   margin: 0 auto;
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 .pyramid-row {
@@ -45,11 +71,12 @@ body {
   position: relative;
   transition: .2s all;
   cursor: pointer;
+  width: 650px;
 }
 
 .s1 {
   position: relative;
-  top: 5px;
+  top: 0px;
   text-align: center;
 }
 
@@ -64,41 +91,59 @@ body {
 }
 
 .two {
-	border-bottom: 80px solid rgb(167,216,187);
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 300px;
+  border-bottom: 80px solid rgb(167,216,187);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 250px;
 }
 
 .three {
-	border-bottom: 80px solid rgb(167,216,187);
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 400px;
+  border-bottom: 80px solid rgb(167,216,187);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 350px;
 }
 
 .four {
-	border-bottom: 80px solid rgb(167,216,187);
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 500px;
+  border-bottom: 80px solid rgb(167,216,187);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 450px;
 }
 
 .five {
   border-bottom: 80px solid rgb(167,216,187);
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 600px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 550px;
 }
 
 .six {
   border-bottom: 80px solid rgb(167,216,187);
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	height: 0;
-	width: 700px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 650px;
 }
+
+.container-arrow{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  width:100%;
+  cursor: pointer;
+  font-size: 12px; 
+}
+.container-arrow:hover,
+.container-arrow:focus{text-decoration: none;}
+
+/* Arrow Bouncing */
+.container-arrow span{  display: inline-block; font-size: 80px;	 animation: .7s down  infinite alternate; -webkit-animation: .7s down infinite alternate; } 
+/***Animation Arrow down***/ 
+@keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(20px)} } 
+@-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(20px)} }
