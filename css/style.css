@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Azo";
+  src: url("fonts/azosans-light.otf");
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("fonts/myriadpro-regular.otf");
+}
+
+h1 {
+  font-family: "Myriad", serif;
+}
+
+h2 {
+  font-family: "Azo", sans-serif;
+}
+
+body {
+  font-family: "Azo", sans-serif;
+}
+
+.pyramid-container {
+  width: 100%;
+  font-size: 16.5px;
+}
+
+.pyramid {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pyramid-row {
+  display: block;
+  justify-content: center;
+}
+
+.level {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1px auto;
+  color: white;
+  height: 70px;
+  position: relative;
+  transition: .2s all;
+  cursor: pointer;
+}
+
+.s1 {
+  position: relative;
+  top: 5px;
+  text-align: center;
+}
+
+.other-row {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.level:hover {
+  border-bottom-color: rgb(169,151,91);
+}
+
+.two {
+	border-bottom: 80px solid rgb(167,216,187);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 300px;
+}
+
+.three {
+	border-bottom: 80px solid rgb(167,216,187);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 400px;
+}
+
+.four {
+	border-bottom: 80px solid rgb(167,216,187);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 500px;
+}
+
+.five {
+  border-bottom: 80px solid rgb(167,216,187);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 600px;
+}
+
+.six {
+  border-bottom: 80px solid rgb(167,216,187);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 700px;
+}
