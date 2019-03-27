@@ -1,3 +1,11 @@
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
+document.getElementById('read').addEventListener('click', function(){
+  if()
+  document.getElementById('read').innerHTML = "Show Less"
+} else {
+doc
+                                                 });
+
+function readMore(){
+  if()
+     document.getElementById("read").innerHTML = "Show Less";
+}
